@@ -1,0 +1,8 @@
+int pictures = 52;
+int picturesInRow = 3;
+            
+int fullRows = pictures / picturesInRow;
+int notFullRows = pictures % fullRows;
+           
+Console.WriteLine($"У вас полных рядков {fullRows} и не полных {notFullRows}");
+Console.ReadKey();
